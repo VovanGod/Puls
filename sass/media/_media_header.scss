@@ -1,0 +1,44 @@
+@media (max-width: 767px) {
+    .header {
+        &__logo {
+            width: 220px;
+        }
+        &__official {
+            span {
+                font-size: 16px;
+            }
+        }
+        &__contacts {
+            .header__phone {
+                font-size: 16px;
+            }
+        }
+    }
+}
+
+@media (max-width: 576px) {
+    .header {
+        justify-content: space-around;
+        &__official {
+            display: none;
+        }
+    }
+}
+
+@media (max-width: 376px) {
+    .header {
+        justify-content: space-between;
+        &__logo {
+            width: 180px;
+        }
+        &__contacts {
+            .header__phone {
+                font-size: 13px;
+            }
+            .button {
+                width: 135px;
+                font-size: 11px;
+            }
+        }
+    }
+}

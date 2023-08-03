@@ -1,0 +1,39 @@
+@media (max-width: 867px) {
+    .fit {
+        &__header {
+            font-size: 26px;
+            margin-bottom: 58px;
+        }
+        &__item {
+            font-size: 14px;
+            span {
+                font-size: 16px;
+            }
+        }
+    }
+}
+
+@media (max-width: 576px) {
+    .fit {
+       &__title {
+        flex-direction: column;
+       } 
+       &__item {
+        width: 320px;
+        margin-bottom: 20px;
+        hr {
+            display: block;
+        }
+       }
+    }
+}
+
+@media (max-width: 376px) {
+    .fit {
+        padding: 50px 0 0 0;
+      &__header {
+        font-size: 21px;
+        margin-bottom: 30px;
+      }  
+    }
+}

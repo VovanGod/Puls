@@ -1,0 +1,44 @@
+.fit {
+    background-color: #F6F6F6;
+    padding: 70px 0 67px 0;
+    &__header {
+        color: #0D0D0D;
+        font-weight: 700;
+        font-size: 30px;
+        text-align: center;
+        margin-bottom: 65px;
+    }
+    &__title {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__item {
+        font-size: 16px;
+        width: 270px;
+        text-align: center;
+        img {
+            display: block;
+            margin: 0 auto;
+            margin-bottom: 35px;
+        }
+        .fit_img1 {
+            margin-top: 21px;
+        }
+        span {
+            display: block;
+            color: #0D0D0D;
+            font-weight: 700;
+            font-size: 18px;
+            margin-bottom: 20px;
+        }
+        a {
+            color: #FF0000;
+        }
+        hr {
+            display: none;
+        }
+    }
+}
+
+@import 'media/media_fit.scss'

@@ -1,0 +1,58 @@
+@media (max-width: 867px) {
+    .consult {
+        &__header {
+            text-align: center;
+            font-size: 30px;
+        }
+        &__descr {
+            text-align: center;
+            font-size: 18px;
+        }
+        .feed_form {
+            margin: 0 auto;
+        }
+    }
+}
+
+@media (max-width: 576px) {
+    .consult {
+        &__header {
+            font-size: 24px;
+        }
+        &__descr {
+            font-size: 15px;
+        }
+        .feed_form {
+            width: 260px;
+            input {
+                width: 260px;
+            }
+            button {
+                font-size: 13px;
+            }
+        }
+    }
+}
+
+@media (max-width: 425px) {
+    .consult {
+        &__header {
+            font-size: 17px;
+            line-height: 30px;
+        }
+        &__descr {
+            font-size: 13px;
+        }
+        .feed_form {
+            width: 260px;
+            input {
+                height: 40px;
+                font-size: 12px;
+            }
+            button {
+                height: 40px;
+                font-size: 12px;
+            }
+        }
+    }
+}
